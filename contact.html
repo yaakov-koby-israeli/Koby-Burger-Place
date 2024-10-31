@@ -18,12 +18,55 @@
   <body>
     <h1>Contant Us (: </h1>
 
-  <nav>
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="index.html">Home</a></li>
-    </ul>
-  </nav>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hours.html">Store Hours</a></li>      
+      </ul>
+    </nav>
 
+
+    <figure>
+      <img class="contant-img" src="img/burger-dish-on-table.jpg" alt="burger-dish-on-table">
+      <figcaption>Holiday at <abbr title="Koby's Burger Place">KBS</abbr></figcaption>
+    </figure>
+    
+    <h2>Our Contant:</h2>
+      
+    <article id="contant">
+      <form action="https://httpbin.org/get" method="get">
+        <fieldset>
+          <legend>Send Us A Massage</legend>
+          <p>
+            <label for="yourName">Name</label>
+            <input type="text" name="yourName" id="yourName" placeholder="Your Name" autocomplete="on" autofocus required>
+          </p>
+          <p>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Your Email" autocomplete="on" required>
+          </p>
+          <h3>You'r Massage:</h3>
+          <textarea name="massage" id="massage" cols="30" rows="10"
+          placeholder="Type your massage here" required></textarea>
+        </fieldset>
+        <br>
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
+        <button type="reset">Reset</button>
+     </form>
+   </article>
+
+   <h3>Our Location:</h3>
+
+   <address>Burger City, chips 25 </address>
+   
+   <p><a href="#">Back to Top</a></p>
+   
+   <a href="tel:+1234567890">Call Us: +1 (234) 567-890</a>
+
+   <hr>
+
+   <footer>
+    Copyright &copy; Koby's Burgers Place
+   </footer>   
+  
   </body>
