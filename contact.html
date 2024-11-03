@@ -10,63 +10,78 @@
     <!-- link to files -->
     <link rel="stylesheet" href = "style.css" type="text/css">
     <link rel="icon" href="burger.png" type="image/png">
-    <title>Koby's Burger Place</title> 
+    <title>Contant Us - KBS</title> 
     
   </head>
 
 
   <body>
-    <h1>Contant Us (: </h1>
 
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="hours.html">Store Hours</a></li>      
-      </ul>
-    </nav>
+    <header>
+
+      <h1>Contant Us (: </h1>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="hours.html">Store Hours</a></li>      
+        </ul>
+      </nav>
 
 
-    <figure>
-      <img class="contant-img" src="img/burger-dish-on-table.jpg" alt="burger-dish-on-table">
-      <figcaption>Holiday at <abbr title="Koby's Burger Place">KBS</abbr></figcaption>
-    </figure>
+      <figure>
+        <img class="contant-img" src="img/burger-dish-on-table.jpg" alt="koby's Holiday Special" title="koby's Holidays Special">
+        <figcaption>Holiday at <abbr title="Koby's Burger Place">KBS</abbr></figcaption>
+      </figure>
+    </header>
     
-    <h2>Our Contant:</h2>
+    <main>      
       
-    <article id="contant">
-      <form action="https://httpbin.org/get" method="get">
-        <fieldset>
-          <legend>Send Us A Massage</legend>
-          <p>
-            <label for="yourName">Name</label>
-            <input type="text" name="yourName" id="yourName" placeholder="Your Name" autocomplete="on" autofocus required>
-          </p>
-          <p>
-            <label for="email">Email</label>
-            <input type="text" name="email" id="email" placeholder="Your Email" autocomplete="on" required>
-          </p>
-          <h3>You'r Massage:</h3>
-          <textarea name="massage" id="massage" cols="30" rows="10"
-          placeholder="Type your massage here" required></textarea>
-        </fieldset>
-        <br>
-        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Submit</button>
-        <button type="reset">Reset</button>
-     </form>
-   </article>
+      <article id="contant">
+        <h2>Our Contact:</h2>
+        <form action="https://httpbin.org/get" method="get">
+          <fieldset>
+            <legend>Send Us A Massage</legend>
+            <p>
+              <label for="yourName">Name</label>
+              <input type="text" name="yourName" id="yourName" placeholder="Your Name" autocomplete="on" autofocus required>
+            </p>
+            <p>
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" placeholder="Your Email" autocomplete="on" required>
+            </p>
+            <h3>You'r Massage:</h3>
+            <textarea name="massage" id="massage" cols="30" rows="10"
+            placeholder="Type your massage here" required></textarea>
+          </fieldset>          
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </article>
 
-   <h3>Our Location:</h3>
+      <section>
+        <h2>Our Location:</h2>
 
-   <address>Burger City, chips 25 </address>
-   
-   <p><a href="#">Back to Top</a></p>
-   
-   <a href="tel:+1234567890">Call Us: +1 (234) 567-890</a>
+        <address>
+          Burger City, chips 25,
+          <br> MO 1889854-88
 
+          <br><br>
+          Phone: <a href="tel:+5555555555">555-555-5555</a>
+
+        </address> 
+      </section>
+
+      <hr>
+
+      <p><a href="#">Back to Top</a></p>    
+
+    </main>
+    
    <hr>
 
    <footer>
-    Copyright &copy; Koby's Burgers Place
+     <p>Copyright &copy; Koby's Burgers Place</p>    
    </footer>   
   
   </body>
+</html>
