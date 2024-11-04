@@ -15,12 +15,12 @@ def index(request: Request):
   context = {'request':request}
   return templates.TemplateResponse("index.html",context)
 
-@app.get("/Home/hours", response_class=HTMLResponse)  # Remove .html extension
+@app.get("/Home/hours", response_class=HTMLResponse) 
 def hours(request: Request):
     context = {'request': request}
     return templates.TemplateResponse("hours.html", context)
 
-@app.get("/Home/contact", response_class=HTMLResponse)  # Remove .html extension
+@app.get("/Home/contact", response_class=HTMLResponse)  
 def contact(request: Request):
     context = {'request': request}
     return templates.TemplateResponse("contact.html", context)
