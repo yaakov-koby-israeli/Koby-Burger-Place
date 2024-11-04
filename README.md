@@ -1,4 +1,4 @@
 ﻿# Koby's Burger Place
-Creating small site in order to prcatice HTML and Python Fastapi..
+Creating small site in order to practice  Python, Fastapi and HTML..
 <hr>
-<br> in prograss
+IN PROGRESS....
