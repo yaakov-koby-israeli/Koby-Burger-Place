@@ -1,6 +1,6 @@
 ﻿# Koby's Burger Place
  
-Creating a small site(pure html with little css touch) in order to practice <strong>Python<strong>,Fastapi and <strong>HTML<strong>..
+Creating a small site (pure html with little css touch) in order to practice HTML..
 <br><br> ALWAYS IN PROGRESS....
 
 ### :hammer_and_wrench: Languages and Tools :
