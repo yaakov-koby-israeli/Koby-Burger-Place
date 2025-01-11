@@ -1,7 +1,7 @@
 ﻿# Koby's Burger Place
  
 Creating a small site (pure html with little css touch) in order to practice HTML..
-<br><br> ALWAYS IN PROGRESS....
+<br>
 
 ### :hammer_and_wrench: Languages and Tools :
 <div>
